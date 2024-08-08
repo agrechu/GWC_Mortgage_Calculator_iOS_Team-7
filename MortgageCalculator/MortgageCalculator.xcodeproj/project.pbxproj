@@ -13,6 +13,10 @@
 		298A83672C3C4B3400799057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A83652C3C4B3400799057 /* Main.storyboard */; };
 		298A83692C3C4B3500799057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A83682C3C4B3500799057 /* Assets.xcassets */; };
 		298A836C2C3C4B3500799057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A836A2C3C4B3500799057 /* LaunchScreen.storyboard */; };
+		E5B088432C654560006137BF /* makeAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B088422C654560006137BF /* makeAccountViewController.swift */; };
+		E5B088452C654574006137BF /* passwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B088442C654574006137BF /* passwordViewController.swift */; };
+		E5B088472C655DB9006137BF /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B088462C655DB9006137BF /* HomeScreenViewController.swift */; };
+		E5B088492C655DCE006137BF /* CalculatorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B088482C655DCE006137BF /* CalculatorScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		298A83682C3C4B3500799057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298A836B2C3C4B3500799057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298A836D2C3C4B3500799057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B088422C654560006137BF /* makeAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeAccountViewController.swift; sourceTree = "<group>"; };
+		E5B088442C654574006137BF /* passwordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordViewController.swift; sourceTree = "<group>"; };
+		E5B088462C655DB9006137BF /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E5B088482C655DCE006137BF /* CalculatorScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				298A835F2C3C4B3400799057 /* AppDelegate.swift */,
 				298A83612C3C4B3400799057 /* SceneDelegate.swift */,
 				298A83632C3C4B3400799057 /* ViewController.swift */,
+				E5B088422C654560006137BF /* makeAccountViewController.swift */,
+				E5B088442C654574006137BF /* passwordViewController.swift */,
+				E5B088462C655DB9006137BF /* HomeScreenViewController.swift */,
+				E5B088482C655DCE006137BF /* CalculatorScreenViewController.swift */,
 				298A83652C3C4B3400799057 /* Main.storyboard */,
 				298A83682C3C4B3500799057 /* Assets.xcassets */,
 				298A836A2C3C4B3500799057 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B088432C654560006137BF /* makeAccountViewController.swift in Sources */,
 				298A83642C3C4B3400799057 /* ViewController.swift in Sources */,
+				E5B088492C655DCE006137BF /* CalculatorScreenViewController.swift in Sources */,
 				298A83602C3C4B3400799057 /* AppDelegate.swift in Sources */,
 				298A83622C3C4B3400799057 /* SceneDelegate.swift in Sources */,
+				E5B088452C654574006137BF /* passwordViewController.swift in Sources */,
+				E5B088472C655DB9006137BF /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
