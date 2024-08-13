@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         passwordText.isSecureTextEntry = true
     }
 
-    @IBAction func login(_ sender: UIButton) {
-   
+    @IBAction func login(_ sender: Any) {
+    
         // Guards for inputs; make sure user fills them in, otherwise do nothing
         guard let email = userEmailText.text, !email.isEmpty else {
             showAlert(message: "Please enter an email.")
@@ -44,7 +44,6 @@ class ViewController: UIViewController {
             }
         }
     }
-
     // Function to display an alert to the user
     func showAlert(message: String) {
         let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)

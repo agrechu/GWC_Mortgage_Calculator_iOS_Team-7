@@ -23,8 +23,9 @@ class makeAccountViewController: UIViewController {
         confirmText.isSecureTextEntry = true 
     }
 
-    @IBAction func register(_ sender: UIButton) {
-        // Guards for inputs; make sure user fills them in, otherwise do nothing
+    @IBAction func register(_ sender: Any) {
+    
+    // Guards for inputs; make sure user fills them in, otherwise do nothing
         guard let email = emailText.text, !email.isEmpty else {
             showAlert(message: "Please enter an email.")
             return
@@ -44,14 +45,11 @@ class makeAccountViewController: UIViewController {
             showAlert(message: "Please confirm your password.")
             return
         }
-    
-        
         // Check if passwords match
         if password != confirm {
             showAlert(message: "Passwords do not match.")
             return
         }
-
 
         // Create user with Firebase Authentication
         Auth.auth().createUser(withEmail: email, password: password) { firebaseResult, error in
@@ -64,7 +62,6 @@ class makeAccountViewController: UIViewController {
             }
         }
     }
-
     // Function to display an alert to the user
     func showAlert(message: String) {
         let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
