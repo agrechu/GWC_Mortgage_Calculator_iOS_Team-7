@@ -9,9 +9,10 @@ import UIKit
 
 class passwordViewController: UIViewController {
 
+  
     @IBOutlet weak var emailText: UITextField!
     
-    @IBOutlet weak var sendEmail: UIButton!
+    @IBOutlet weak var sendEmailText: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
