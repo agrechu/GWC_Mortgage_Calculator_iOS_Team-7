@@ -216,13 +216,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqU-4f-SEB">
-                                <rect key="frame" x="32" y="794" width="72" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gC-9a-Cfm">
                                 <rect key="frame" x="0.0" y="677" width="393" height="51"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -243,6 +236,13 @@
                                     <action selector="calculateButton:" destination="ujE-02-fBq" eventType="touchUpInside" id="GhN-b1-7x2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqU-4f-SEB">
+                                <rect key="frame" x="50" y="736" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sPI-gM-mZ5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -252,7 +252,9 @@
                         <outlet property="downPaymentTxtField" destination="hph-qv-vrj" id="wMx-c8-t6o"/>
                         <outlet property="listPriceLabel" destination="Bfd-uX-Mlt" id="Wrf-e2-wcF"/>
                         <outlet property="loanDurationPicker" destination="0gC-9a-Cfm" id="nCn-5q-P6D"/>
+                        <outlet property="loanDurationPickerview" destination="0gC-9a-Cfm" id="InF-mk-WiI"/>
                         <outlet property="loanPaymentTxtField" destination="qxq-dI-yj8" id="JSl-9M-Rtd"/>
+                        <outlet property="monthlyPaymentLabel" destination="gqU-4f-SEB" id="4OT-Ea-hQ1"/>
                         <outlet property="resultLabel" destination="gqU-4f-SEB" id="10I-CY-FqW"/>
                     </connections>
                 </viewController>
