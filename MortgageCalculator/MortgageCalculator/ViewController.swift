@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in
             if let e = error {
                 print("Error: \(e.localizedDescription)")
-                self.showAlert(message: "Failed to login: \(e.localizedDescription)")
+                self.showAlert(message: "Failed to login. Wrong email and/or password.")
             } else {
                 // Go to the next screen
                 self.performSegue(withIdentifier: "goToNext", sender: self)

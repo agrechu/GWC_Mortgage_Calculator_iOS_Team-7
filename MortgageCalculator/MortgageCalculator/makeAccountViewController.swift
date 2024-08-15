@@ -47,6 +47,7 @@ class makeAccountViewController: UIViewController {
         }
         // Check if passwords match
         if password != confirm {
+         //   print("Passwords do not match.")
             showAlert(message: "Passwords do not match.")
             return
         }
